@@ -18,6 +18,9 @@ const Nav = () => {
         <li class="nav-item">
           <Link class="nav-link" to="/view">ViewDetails</Link>
         </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/search">Search here</Link>
+        </li>
        
       </ul>
     </div>

@@ -61,7 +61,7 @@ const Add = () => {
                         <input type="text" className="form-control" name='Venue' value={data.Venue} onChange={inputhandler}/></div>
                         <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                         <labrl className="form-label">Date</labrl>
-                        <input type="date" name="" id="" className="form-control" name='Date' value={data.Date} onChange={inputhandler}/>
+                        <input type="date" name="Date" id="" className="form-control" value={data.Date} onChange={inputhandler}/>
                         </div>
     
                         <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
